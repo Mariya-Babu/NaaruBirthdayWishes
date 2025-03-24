@@ -47,12 +47,38 @@
           font-size: 4em;
         }
       }
+
+      /* Footer Styling */
+      footer {
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 8px 16px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+      }
+
+      footer span {
+        font-weight: bold;
+        color: #ffcc00; /* Gold color */
+      }
     </style>
   </head>
 
   <body>
     <h1>Happy Birthday Naaru</h1>
     <canvas id="birthday"></canvas>
+
+    <!-- Copyright Footer -->
+    <footer>
+      Designed & Developed by <span>Mariya Babu</span>
+    </footer>
 
     <script>
       const PI2 = Math.PI * 2;
